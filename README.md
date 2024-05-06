@@ -1,3 +1,6 @@
+# @savicontrols/pino-http
+This is a fork of pino-http with the process-warning dependency version locked to 2.2.0. process-warning@2.3.0 uses require('node:util') which seems to cause problems with our rules_nodejs-based savi.
+
 # pino-http&nbsp;&nbsp;[![Build Status](https://img.shields.io/github/workflow/status/pinojs/pino-http/CI)](https://github.com/pinojs/pino-http/actions)
 
 High-speed HTTP logger for Node.js

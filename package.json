@@ -1,6 +1,6 @@
 {
-  "name": "pino-http",
-  "version": "7.0.0",
+  "name": "@savicontrols/pino-http",
+  "version": "7.1.0",
   "description": "High-speed HTTP logger for Node.js",
   "main": "logger.js",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
     "get-caller-file": "^2.0.5",
     "pino": "^7.5.0",
     "pino-std-serializers": "^5.0.0",
-    "process-warning": "^2.0.0"
+    "process-warning": "2.2.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.0",
@@ -37,10 +37,6 @@
     "Matteo Collina <hello@matteocollina.com>"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pinojs/pino-http.git"
-  },
   "bugs": {
     "url": "https://github.com/pinojs/pino-http/issues"
   },
